@@ -6424,7 +6424,7 @@ export interface ClientApplicationEditOptions {
   icon?: BufferResolvable | Base64Resolvable | null;
   coverImage?: BufferResolvable | Base64Resolvable | null;
   interactionsEndpointURL?: string;
-  tags?: string[];
+  tags?: readonly string[];
 }
 
 export interface ClientApplicationInstallParams {
